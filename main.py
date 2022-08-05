@@ -3,7 +3,7 @@ import string
 import os
 import time
 LICNECE = """
-Copyright (c) 2021 Drillenissen#4268 logicguy.mailandcontact@gmail.com
+Copyright (c) 2022 ZXGamer#9999 ZXGamer9313@gmail.com
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -63,21 +63,20 @@ class NitroGen:  # Initialise the class
         if os.name == "nt":  # If the system is windows
             print("")
             ctypes.windll.kernel32.SetConsoleTitleW(
-                "Nitro Generator and Checker - Made by Drillenissen#4268")  # Change the
+                "Nitro Generator and Checker - Made by ZXGamer#9999")  # Change the
         else:  # Or if it is unix
-            print(f'\33]0;Nitro Generator and Checker - Made by Drillenissen#4268\a',
+            print(f'\33]0;Nitro Generator and Checker - Made by ZXGamer#9999\a',
                   end='', flush=True)  # Update title of command prompt
 
-        print(""" █████╗ ███╗   ██╗ ██████╗ ███╗   ██╗██╗██╗  ██╗
-██╔══██╗████╗  ██║██╔═══██╗████╗  ██║██║╚██╗██╔╝
-███████║██╔██╗ ██║██║   ██║██╔██╗ ██║██║ ╚███╔╝
-██╔══██║██║╚██╗██║██║   ██║██║╚██╗██║██║ ██╔██╗
-██║  ██║██║ ╚████║╚██████╔╝██║ ╚████║██║██╔╝ ██╗
-╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝╚═╝  ╚═╝
-                                                        """)  # Print the title card
+        print("""╭━━━━┳━╮╭━┳━━━┳━━━┳━╮╭━┳━━━┳━━━╮
+╰━━╮━┣╮╰╯╭┫╭━╮┃╭━╮┃┃╰╯┃┃╭━━┫╭━╮┃
+╱╱╭╯╭╯╰╮╭╯┃┃╱╰┫┃╱┃┃╭╮╭╮┃╰━━┫╰━╯┃
+╱╭╯╭╯╱╭╯╰╮┃┃╭━┫╰━╯┃┃┃┃┃┃╭━━┫╭╮╭╯
+╭╯━╰━┳╯╭╮╰┫╰┻━┃╭━╮┃┃┃┃┃┃╰━━┫┃┃╰╮
+╰━━━━┻━╯╰━┻━━━┻╯╱╰┻╯╰╯╰┻━━━┻╯╰━╯""")  # Print the title card
         time.sleep(2)  # Wait a few seconds
         # Print who developed the code
-        self.slowType("Made by: Drillenissen#4268 && Benz#7274", .02)
+        self.slowType("Made by: ZXGamer#9999", .02)
         time.sleep(1)  # Wait a little more
         # Print the first question
         self.slowType(
@@ -134,12 +133,12 @@ class NitroGen:  # Initialise the class
 
             if os.name == "nt":  # If the system is windows
                 ctypes.windll.kernel32.SetConsoleTitleW(
-                    f"Nitro Generator and Checker - {len(valid)} Valid | {invalid} Invalid - Made by Drillenissen#4268")  # Change the title
+                    f"Nitro Generator and Checker - {len(valid)} Valid | {invalid} Invalid - Made by ZXGamer#9999")  # Change the title
                 print("")
             else:  # If it is a unix system
                 # Change the title
                 print(
-                    f'\33]0;Nitro Generator and Checker - {len(valid)} Valid | {invalid} Invalid - Made by Drillenissen#4268\a', end='', flush=True)
+                    f'\33]0;Nitro Generator and Checker - {len(valid)} Valid | {invalid} Invalid - Made byZXGamer#9999\a', end='', flush=True)
 
         print(f"""
 Results:
